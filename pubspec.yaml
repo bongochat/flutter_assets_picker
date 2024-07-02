@@ -1,5 +1,5 @@
 name: bongochat_image_picker
-version: 9.1.0
+version: 1.0.0
 description: |
   An image picker (also with videos and audio)
   for Flutter projects based on BongoChat's UI,
