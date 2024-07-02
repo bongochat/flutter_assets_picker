@@ -2,7 +2,7 @@
 Use of this source code is governed by an Apache license
 that can be found in the LICENSE file. -->
 
-# Flutter WeChat Assets Picker
+# Flutter BongoChat Assets Picker
 
 [![pub package](https://img.shields.io/pub/v/bongochat_image_picker?logo=dart&label=stable&style=flat-square)](https://pub.dev/packages/bongochat_image_picker)
 [![pub package](https://img.shields.io/pub/v/bongochat_image_picker?color=9d00ff&include_prereleases&label=dev&logo=dart&style=flat-square)](https://pub.dev/packages/bongochat_image_picker)
