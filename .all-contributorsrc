@@ -1,0 +1,36 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 50,
+  "badgeTemplate": "[![All Contributors](https://img.shields.io/badge/all_contributors-<%= contributors.length %>-orange.svg?style=flat-square&logo=github)](#contributors)",
+  "commit": false,
+  "contributors": [
+    {
+      "login": "sajib1066",
+      "name": "Sajib Hossain",
+      "avatar_url": "https://avatars.githubusercontent.com/u/39632170?v=4",
+      "profile": "https://bongochat.com.bd/sajib",
+      "contributions": [
+        "code",
+        "design",
+        "doc",
+        "example",
+        "ideas",
+        "maintenance",
+        "question",
+        "review",
+        "a11y",
+        "translation"
+      ]
+    },
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "flutter_bongochat_image_picker",
+  "projectOwner": "bongochat",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true,
+  "commitConvention": "angular",
+  "commitType": "docs"
+}

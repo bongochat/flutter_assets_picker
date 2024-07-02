@@ -1,0 +1,56 @@
+name: bongochat_image_picker
+version: 9.1.0
+description: |
+  An image picker (also with videos and audio)
+  for Flutter projects based on BongoChat's UI,
+  with full support for customization.
+topics:
+  - picker
+  - image
+  - audio
+  - video
+  - bongochat
+
+repository: https://github.com/bongochat/flutter_bongochat_image_picker
+issue_tracker: https://github.com/bongochat/flutter_bongochat_image_picker/issues
+
+environment:
+  sdk: ^3.2.0
+  flutter: '>=3.16.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  extended_image: ^8.2.0
+  photo_manager: ^3.0.0
+  photo_manager_image_provider: ^2.0.0
+  provider: ^6.0.5
+  video_player: ^2.7.0
+
+dev_dependencies:
+  flutter_lints: any
+  flutter_localizations:
+    sdk: flutter
+  flutter_test:
+    sdk: flutter
+
+screenshots:
+  - description: 'Screenshot 1'
+    path: screenshots/README_1.webp
+  - description: 'Screenshot 2'
+    path: screenshots/README_2.webp
+  - description: 'Screenshot 3'
+    path: screenshots/README_3.webp
+  - description: 'Screenshot 4'
+    path: screenshots/README_4.webp
+  - description: 'Screenshot 5'
+    path: screenshots/README_5.webp
+  - description: 'Screenshot 6'
+    path: screenshots/README_6.webp
+  - description: 'Screenshot 7'
+    path: screenshots/README_7.webp
+  - description: 'Screenshot 8'
+    path: screenshots/README_8.webp
+  - description: 'Screenshot 9'
+    path: screenshots/README_9.webp
