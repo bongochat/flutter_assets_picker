@@ -1,4 +1,4 @@
-package com.bongochat.wechatAssetsPickerExample
+package com.bongochat.assetsPicker
 
 import io.flutter.embedding.android.FlutterActivity
 

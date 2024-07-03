@@ -61,7 +61,7 @@ class _HomePageState extends State<HomePage> {
             aspectRatio: 1.0,
             child: Hero(
               tag: 'LOGO',
-              child: Image.asset('assets/flutter_candies_logo.png'),
+              child: Image.asset('assets/bongo_chat_logo.png'),
             ),
           ),
           const SizedBox(width: 10.0),
