@@ -11,7 +11,7 @@ import 'package:provider/provider.dart';
 /// Mirroring [ChangeNotifierProvider].
 typedef CNP<T extends ChangeNotifier?> = ChangeNotifierProvider<T>;
 
-/// {@template bongochat_image_picker.LoadingIndicatorBuilder}
+/// {@template assets_picker.LoadingIndicatorBuilder}
 /// Build the loading indicator with the given [isAssetsEmpty].
 /// 根据给定的 [isAssetsEmpty] 构建加载指示器。
 /// {@endtemplate}
@@ -30,7 +30,7 @@ typedef SpecialItemBuilder<Path> = Widget? Function(
   int length,
 );
 
-/// {@template bongochat_image_picker.AssetSelectPredicate}
+/// {@template assets_picker.AssetSelectPredicate}
 /// Predicate whether an asset can be selected or unselected.
 /// 判断资源可否被选择。
 /// {@endtemplate}
@@ -40,7 +40,7 @@ typedef AssetSelectPredicate<Asset> = FutureOr<bool> Function(
   bool isSelected,
 );
 
-/// {@template bongochat_image_picker.LimitedPermissionOverlayPredicate}
+/// {@template assets_picker.LimitedPermissionOverlayPredicate}
 /// Predicate whether the limited permission overlay should be displayed.
 /// 判断有限的权限情况下是否展示提示页面。
 /// {@endtemplate}
@@ -48,7 +48,7 @@ typedef LimitedPermissionOverlayPredicate = bool Function(
   PermissionState permissionState,
 );
 
-/// {@template bongochat_image_picker.PathNameBuilder}
+/// {@template assets_picker.PathNameBuilder}
 /// Build customized path name.
 /// 构建自定义路径名称。
 /// {@endtemplate}

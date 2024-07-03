@@ -4,8 +4,8 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:bongochat_image_picker/bongochat_image_picker.dart';
-import 'package:bongochat_image_picker_demo/l10n/gen/app_localizations.dart';
+import 'package:assets_picker/assets_picker.dart';
+import 'package:assets_picker_demo/l10n/gen/app_localizations.dart';
 
 import 'constants/extensions.dart';
 import 'pages/splash_page.dart';

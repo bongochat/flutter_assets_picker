@@ -5,7 +5,7 @@
 import 'dart:async';
 import 'dart:math' as math;
 
-import 'package:bongochat_image_picker/src/picker/extensions.dart';
+import 'package:assets_picker/src/picker/extensions.dart';
 import 'package:extended_image/extended_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/semantics.dart';
@@ -71,7 +71,7 @@ abstract class AssetPickerViewerBuilderDelegate<Asset, Path> {
   /// 通常用户使用苹果系统时，点击网格内容进行预览，是反向进行预览。
   final bool shouldReversePreview;
 
-  /// {@macro bongochat_image_picker.AssetSelectPredicate}
+  /// {@macro assets_picker.AssetSelectPredicate}
   final AssetSelectPredicate<Asset>? selectPredicate;
 
   /// [StreamController] for viewing page index update.

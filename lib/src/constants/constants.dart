@@ -4,7 +4,7 @@
 
 import 'package:photo_manager/photo_manager.dart';
 
-const String packageName = 'bongochat_image_picker';
+const String packageName = 'assets_picker';
 
 const int defaultAssetsPerPage = 80;
 const int defaultMaxAssetsCount = 9;

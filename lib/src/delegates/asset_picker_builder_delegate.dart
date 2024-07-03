@@ -6,7 +6,7 @@ import 'dart:math' as math;
 import 'dart:typed_data' as typed_data;
 import 'dart:ui' as ui;
 
-import 'package:bongochat_image_picker/src/picker/extensions.dart';
+import 'package:assets_picker/src/picker/extensions.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/semantics.dart';
@@ -99,7 +99,7 @@ abstract class AssetPickerBuilderDelegate<Asset, Path> {
   /// 指示目前加载的状态
   final LoadingIndicatorBuilder? loadingIndicatorBuilder;
 
-  /// {@macro bongochat_image_picker.AssetSelectPredicate}
+  /// {@macro assets_picker.AssetSelectPredicate}
   final AssetSelectPredicate<Asset>? selectPredicate;
 
   /// The [ScrollController] for the preview grid.
@@ -120,10 +120,10 @@ abstract class AssetPickerBuilderDelegate<Asset, Path> {
   /// 使用 [Null] 即使用 [isAppleOS] 进行判断。
   final bool? shouldRevertGrid;
 
-  /// {@macro bongochat_image_picker.LimitedPermissionOverlayPredicate}
+  /// {@macro assets_picker.LimitedPermissionOverlayPredicate}
   final LimitedPermissionOverlayPredicate? limitedPermissionOverlayPredicate;
 
-  /// {@macro bongochat_image_picker.PathNameBuilder}
+  /// {@macro assets_picker.PathNameBuilder}
   final PathNameBuilder<AssetPathEntity>? pathNameBuilder;
 
   /// [ThemeData] for the picker.

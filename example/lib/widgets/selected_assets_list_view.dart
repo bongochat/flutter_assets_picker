@@ -3,9 +3,9 @@
 // in the LICENSE file.
 
 import 'package:flutter/material.dart';
-import 'package:bongochat_image_picker/bongochat_image_picker.dart'
+import 'package:assets_picker/assets_picker.dart'
     show AssetEntity, AssetPicker, AssetPickerViewer;
-import 'package:bongochat_image_picker_demo/constants/extensions.dart';
+import 'package:assets_picker_demo/constants/extensions.dart';
 
 import '../main.dart' show themeColor;
 import 'asset_widget_builder.dart';

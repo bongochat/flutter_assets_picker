@@ -3,7 +3,7 @@
 // in the LICENSE file.
 
 import 'package:flutter/material.dart';
-import 'package:bongochat_image_picker/bongochat_image_picker.dart';
+import 'package:assets_picker/assets_picker.dart';
 
 import '../constants/extensions.dart';
 import '../constants/picker_method.dart';

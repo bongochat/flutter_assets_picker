@@ -1,5 +1,5 @@
-name: bongochat_image_picker_demo
-description: The demo project for the bongochat_image_picker package.
+name: assets_picker_demo
+description: The demo project for the assets_picker package.
 version: 9.1.0+55
 publish_to: none
 
@@ -13,7 +13,7 @@ dependencies:
   flutter_localizations:
     sdk: flutter
 
-  bongochat_image_picker:
+  assets_picker:
     path: ../
   wechat_camera_picker: ^4.2.0
 

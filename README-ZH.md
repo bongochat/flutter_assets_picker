@@ -4,14 +4,14 @@ that can be found in the LICENSE file. -->
 
 # Flutter WeChat Assets Picker
 
-[![pub package](https://img.shields.io/pub/v/bongochat_image_picker?label=%E7%A8%B3%E5%AE%9A%E7%89%88&logo=dart&style=flat-square)](https://pub.flutter-io.cn/packages/bongochat_image_picker)
-[![pub package](https://img.shields.io/pub/v/bongochat_image_picker?color=9d00ff&include_prereleases&label=%E5%BC%80%E5%8F%91%E7%89%88&logo=dart&style=flat-square)](https://pub.flutter-io.cn/packages/bongochat_image_picker)
-[![CodeFactor](https://img.shields.io/codefactor/grade/github/bongochat/flutter_bongochat_image_picker?label=%E4%BB%A3%E7%A0%81%E8%B4%A8%E9%87%8F&logo=codefactor&logoColor=%23ffffff&style=flat-square)](https://www.codefactor.io/repository/github/bongochat/flutter_bongochat_image_picker)
+[![pub package](https://img.shields.io/pub/v/assets_picker?label=%E7%A8%B3%E5%AE%9A%E7%89%88&logo=dart&style=flat-square)](https://pub.flutter-io.cn/packages/assets_picker)
+[![pub package](https://img.shields.io/pub/v/assets_picker?color=9d00ff&include_prereleases&label=%E5%BC%80%E5%8F%91%E7%89%88&logo=dart&style=flat-square)](https://pub.flutter-io.cn/packages/assets_picker)
+[![CodeFactor](https://img.shields.io/codefactor/grade/github/bongochat/flutter_assets_picker?label=%E4%BB%A3%E7%A0%81%E8%B4%A8%E9%87%8F&logo=codefactor&logoColor=%23ffffff&style=flat-square)](https://www.codefactor.io/repository/github/bongochat/flutter_assets_picker)
 
-[![Build status](https://img.shields.io/github/actions/workflow/status/bongochat/flutter_bongochat_image_picker/runnable.yml?branch=main&label=CI&logo=github&style=flat-square)](https://github.com/bongochat/flutter_bongochat_image_picker/actions/workflows/runnable.yml)
-[![GitHub license](https://img.shields.io/github/license/bongochat/flutter_bongochat_image_picker?label=%E5%8D%8F%E8%AE%AE&style=flat-square)](https://github.com/bongochat/flutter_bongochat_image_picker/blob/main/LICENSE)
-[![GitHub stars](https://img.shields.io/github/stars/bongochat/flutter_bongochat_image_picker?logo=github&style=flat-square)](https://github.com/bongochat/flutter_bongochat_image_picker/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/bongochat/flutter_bongochat_image_picker?logo=github&style=flat-square)](https://github.com/bongochat/flutter_bongochat_image_picker/network)
+[![Build status](https://img.shields.io/github/actions/workflow/status/bongochat/flutter_assets_picker/runnable.yml?branch=main&label=CI&logo=github&style=flat-square)](https://github.com/bongochat/flutter_assets_picker/actions/workflows/runnable.yml)
+[![GitHub license](https://img.shields.io/github/license/bongochat/flutter_assets_picker?label=%E5%8D%8F%E8%AE%AE&style=flat-square)](https://github.com/bongochat/flutter_assets_picker/blob/main/LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/bongochat/flutter_assets_picker?logo=github&style=flat-square)](https://github.com/bongochat/flutter_assets_picker/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/bongochat/flutter_assets_picker?logo=github&style=flat-square)](https://github.com/bongochat/flutter_assets_picker/network)
 
 [![Awesome Flutter](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/Solido/awesome-flutter)
 <a target="_blank" href="https://jq.qq.com/?_wv=1027&k=5bcc0gy"><img border="0" src="https://pub.idqqimg.com/wpa/images/group.png" alt="bongochat" title="bongochat"></a>
@@ -160,24 +160,24 @@ Language: [English](README.md) | 中文
 
 ### Flutter
 
-执行 `flutter pub add bongochat_image_picker`，
-或者将 `bongochat_image_picker` 手动添加至 `pubspec.yaml` 引用。
+执行 `flutter pub add assets_picker`，
+或者将 `assets_picker` 手动添加至 `pubspec.yaml` 引用。
 
 ```yaml
 dependencies:
-  bongochat_image_picker: ^latest_version
+  assets_picker: ^latest_version
 ```
 
 最新的 **稳定** 版本是:
-[![pub package](https://img.shields.io/pub/v/bongochat_image_picker?logo=dart&label=stable&style=flat-square)](https://pub.flutter-io.cn/packages/bongochat_image_picker)
+[![pub package](https://img.shields.io/pub/v/assets_picker?logo=dart&label=stable&style=flat-square)](https://pub.flutter-io.cn/packages/assets_picker)
 
 最新的 **开发** 版本是:
-[![pub package](https://img.shields.io/pub/v/bongochat_image_picker?color=9d00ff&include_prereleases&label=dev&logo=dart&style=flat-square)](https://pub.flutter-io.cn/packages/bongochat_image_picker)
+[![pub package](https://img.shields.io/pub/v/assets_picker?color=9d00ff&include_prereleases&label=dev&logo=dart&style=flat-square)](https://pub.flutter-io.cn/packages/assets_picker)
 
 在你的代码中导入：
 
 ```dart
-import 'package:bongochat_image_picker/bongochat_image_picker.dart';
+import 'package:assets_picker/assets_picker.dart';
 ```
 
 ### Android
@@ -510,7 +510,7 @@ W/Glide   (21133): Failed to find GeneratedAppGlideModule.
 [IntelliJ IDEA](https://www.jetbrains.com/idea/?from=bongochat)
 等 IDE 的授权。
 
-[<img src="https://github.com/bongochat/flutter_bongochat_image_picker/raw/main/.github/jetbrains-variant.png" width="200"/>](https://www.jetbrains.com/?from=bongochat)
+[<img src="https://github.com/bongochat/flutter_assets_picker/raw/main/.github/jetbrains-variant.png" width="200"/>](https://www.jetbrains.com/?from=bongochat)
 
 
 [photo_manager pub]: https://pub.flutter-io.cn/packages/photo_manager
@@ -518,10 +518,10 @@ W/Glide   (21133): Failed to find GeneratedAppGlideModule.
 [provider pub]: https://pub.flutter-io.cn/packages/provider
 [video_player pub]: https://pub.flutter-io.cn/packages/video_player
 [wechat_camera_picker pub]: https://pub.flutter-io.cn/packages/wechat_camera_picker
-[迁移指南]: https://github.com/bongochat/flutter_bongochat_image_picker/blob/main/guides/migration_guide.md
+[迁移指南]: https://github.com/bongochat/flutter_assets_picker/blob/main/guides/migration_guide.md
 [photo_manager API 文档]: https://pub.flutter-io.cn/documentation/photo_manager/latest/
 [Glide Generated API 文档]: https://muyangmin.github.io/glide-docs-cn/doc/generatedapi.html
-[贡献自定义实现]: https://github.com/bongochat/flutter_bongochat_image_picker/blob/main/example/lib/customs/CONTRIBUTING.md
+[贡献自定义实现]: https://github.com/bongochat/flutter_assets_picker/blob/main/example/lib/customs/CONTRIBUTING.md
 [photo_manager#561]: https://github.com/bongochat/flutter_photo_manager/issues/561
 [photo_manager#from-raw-data]: https://github.com/bongochat/flutter_photo_manager#from-raw-data
 [photo_manager#delete-entities]: https://github.com/bongochat/flutter_photo_manager#delete-entities

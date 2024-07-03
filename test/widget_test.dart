@@ -5,7 +5,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:bongochat_image_picker/bongochat_image_picker.dart';
+import 'package:assets_picker/assets_picker.dart';
 
 import 'test_utils.dart';
 

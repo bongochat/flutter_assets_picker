@@ -128,10 +128,10 @@ class AssetPickerConfig {
   /// 选择器是否可以从同样的位置开始选择
   final bool keepScrollOffset;
 
-  /// @{macro bongochat_image_picker.delegates.SortPathDelegate}
+  /// @{macro assets_picker.delegates.SortPathDelegate}
   final SortPathDelegate<AssetPathEntity>? sortPathDelegate;
 
-  /// {@template bongochat_image_picker.constants.AssetPickerConfig.sortPathsByModifiedDate}
+  /// {@template assets_picker.constants.AssetPickerConfig.sortPathsByModifiedDate}
   /// Whether to allow sort delegates to sort paths with
   /// [FilterOptionGroup.containsPathModified].
   /// 是否结合 [FilterOptionGroup.containsPathModified] 进行路径排序
@@ -176,7 +176,7 @@ class AssetPickerConfig {
   /// 指示目前加载的状态
   final LoadingIndicatorBuilder? loadingIndicatorBuilder;
 
-  /// {@macro bongochat_image_picker.AssetSelectPredicate}
+  /// {@macro assets_picker.AssetSelectPredicate}
   final AssetSelectPredicate<AssetEntity>? selectPredicate;
 
   /// Whether the assets grid should revert.
@@ -186,9 +186,9 @@ class AssetPickerConfig {
   /// 使用 [Null] 即使用是否为 Apple 系统进行判断。
   final bool? shouldRevertGrid;
 
-  /// {@macro bongochat_image_picker.LimitedPermissionOverlayPredicate}
+  /// {@macro assets_picker.LimitedPermissionOverlayPredicate}
   final LimitedPermissionOverlayPredicate? limitedPermissionOverlayPredicate;
 
-  /// {@macro bongochat_image_picker.PathNameBuilder}
+  /// {@macro assets_picker.PathNameBuilder}
   final PathNameBuilder<AssetPathEntity>? pathNameBuilder;
 }

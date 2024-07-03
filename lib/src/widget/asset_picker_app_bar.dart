@@ -4,7 +4,7 @@
 
 import 'dart:ui' as ui;
 
-import 'package:bongochat_image_picker/src/picker/extensions.dart';
+import 'package:assets_picker/src/picker/extensions.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/semantics.dart';
 import 'package:flutter/services.dart';

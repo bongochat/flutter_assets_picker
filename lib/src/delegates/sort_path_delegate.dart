@@ -6,7 +6,7 @@ import 'package:photo_manager/photo_manager.dart';
 
 import '../models/path_wrapper.dart';
 
-/// @{template bongochat_image_picker.delegates.SortPathDelegate}
+/// @{template assets_picker.delegates.SortPathDelegate}
 /// Delegate to sort asset path entities.
 /// 用于资源路径排序的实现
 /// @{endtemplate}

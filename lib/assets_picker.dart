@@ -2,7 +2,7 @@
 // Use of this source code is governed by an Apache license that can be found
 // in the LICENSE file.
 
-library bongochat_image_picker;
+library assets_picker;
 
 export 'package:photo_manager/photo_manager.dart';
 export 'package:photo_manager_image_provider/photo_manager_image_provider.dart';

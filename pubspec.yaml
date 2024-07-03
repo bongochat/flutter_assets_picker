@@ -1,4 +1,4 @@
-name: bongochat_image_picker
+name: assets_picker
 version: 1.0.0
 description: |
   An image picker (also with videos and audio)
@@ -11,8 +11,8 @@ topics:
   - video
   - bongochat
 
-repository: https://github.com/bongochat/flutter_bongochat_image_picker
-issue_tracker: https://github.com/bongochat/flutter_bongochat_image_picker/issues
+repository: https://github.com/bongochat/flutter_assets_picker
+issue_tracker: https://github.com/bongochat/flutter_assets_picker/issues
 
 environment:
   sdk: ^3.2.0

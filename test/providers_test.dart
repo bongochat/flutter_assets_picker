@@ -4,7 +4,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:bongochat_image_picker/bongochat_image_picker.dart';
+import 'package:assets_picker/assets_picker.dart';
 
 import 'test_utils.dart';
 
@@ -42,7 +42,7 @@ void main() async {
       );
     });
 
-    /// Regression: https://github.com/bongochat/flutter_bongochat_image_picker/issues/427
+    /// Regression: https://github.com/bongochat/flutter_assets_picker/issues/427
     testWidgets(
       'does not clear selected assets',
       (WidgetTester tester) async {

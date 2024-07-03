@@ -4,7 +4,7 @@ that can be found in the LICENSE file. -->
 
 # WeChat Assets Picker example
 
-This is the example for the `bongochat_image_picker` package.
+This is the example for the `assets_picker` package.
 
 We've put multiple common usage
 with the packages in the example.

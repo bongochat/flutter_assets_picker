@@ -5,8 +5,8 @@
 import 'dart:developer' as dev;
 import 'dart:io';
 
-import 'package:bongochat_image_picker/src/picker/extensions.dart';
-import 'package:bongochat_image_picker/src/picker/widgets/scale_text.dart';
+import 'package:assets_picker/src/picker/extensions.dart';
+import 'package:assets_picker/src/picker/widgets/scale_text.dart';
 import 'package:flutter/material.dart';
 import 'package:photo_manager/photo_manager.dart';
 

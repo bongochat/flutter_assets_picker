@@ -3,7 +3,7 @@
 // in the LICENSE file.
 
 import 'package:flutter/material.dart';
-import 'package:bongochat_image_picker_demo/l10n/gen/app_localizations.dart';
+import 'package:assets_picker_demo/l10n/gen/app_localizations.dart';
 
 extension BuildContextExtension on BuildContext {
   AppLocalizations get l10n => AppLocalizations.of(this)!;

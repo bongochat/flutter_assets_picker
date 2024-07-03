@@ -4,14 +4,14 @@ that can be found in the LICENSE file. -->
 
 # Flutter BongoChat Assets Picker
 
-[![pub package](https://img.shields.io/pub/v/bongochat_image_picker?logo=dart&label=stable&style=flat-square)](https://pub.dev/packages/bongochat_image_picker)
-[![pub package](https://img.shields.io/pub/v/bongochat_image_picker?color=9d00ff&include_prereleases&label=dev&logo=dart&style=flat-square)](https://pub.dev/packages/bongochat_image_picker)
-[![CodeFactor](https://img.shields.io/codefactor/grade/github/bongochat/flutter_bongochat_image_picker?logo=codefactor&logoColor=%23ffffff&style=flat-square)](https://www.codefactor.io/repository/github/bongochat/flutter_bongochat_image_picker)
+[![pub package](https://img.shields.io/pub/v/assets_picker?logo=dart&label=stable&style=flat-square)](https://pub.dev/packages/assets_picker)
+[![pub package](https://img.shields.io/pub/v/assets_picker?color=9d00ff&include_prereleases&label=dev&logo=dart&style=flat-square)](https://pub.dev/packages/assets_picker)
+[![CodeFactor](https://img.shields.io/codefactor/grade/github/bongochat/flutter_assets_picker?logo=codefactor&logoColor=%23ffffff&style=flat-square)](https://www.codefactor.io/repository/github/bongochat/flutter_assets_picker)
 
-[![Build status](https://img.shields.io/github/actions/workflow/status/bongochat/flutter_bongochat_image_picker/runnable.yml?branch=main&label=CI&logo=github&style=flat-square)](https://github.com/bongochat/flutter_bongochat_image_picker/actions/workflows/runnable.yml)
-[![GitHub license](https://img.shields.io/github/license/bongochat/flutter_bongochat_image_picker?style=flat-square)](https://github.com/bongochat/flutter_bongochat_image_picker/blob/main/LICENSE)
-[![GitHub stars](https://img.shields.io/github/stars/bongochat/flutter_bongochat_image_picker?logo=github&style=flat-square)](https://github.com/bongochat/flutter_bongochat_image_picker/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/bongochat/flutter_bongochat_image_picker?logo=github&style=flat-square)](https://github.com/bongochat/flutter_bongochat_image_picker/network)
+[![Build status](https://img.shields.io/github/actions/workflow/status/bongochat/flutter_assets_picker/runnable.yml?branch=main&label=CI&logo=github&style=flat-square)](https://github.com/bongochat/flutter_assets_picker/actions/workflows/runnable.yml)
+[![GitHub license](https://img.shields.io/github/license/bongochat/flutter_assets_picker?style=flat-square)](https://github.com/bongochat/flutter_assets_picker/blob/main/LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/bongochat/flutter_assets_picker?logo=github&style=flat-square)](https://github.com/bongochat/flutter_assets_picker/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/bongochat/flutter_assets_picker?logo=github&style=flat-square)](https://github.com/bongochat/flutter_assets_picker/network)
 
 [![Awesome Flutter](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/Solido/awesome-flutter)
 [![Flutter Candies QQ群](https://pub.idqqimg.com/wpa/images/group.png)](https://jq.qq.com/?_wv=1027&k=5bcc0gy)
@@ -166,22 +166,22 @@ before you have any questions.
 
 ### Flutter
 
-Run `flutter pub add bongochat_image_picker`,
-or add `bongochat_image_picker` to `pubspec.yaml` dependencies manually.
+Run `flutter pub add assets_picker`,
+or add `assets_picker` to `pubspec.yaml` dependencies manually.
 ```yaml
 dependencies:
-  bongochat_image_picker: ^latest_version
+  assets_picker: ^latest_version
 ```
 
 The latest **stable** version is:
-[![pub package](https://img.shields.io/pub/v/bongochat_image_picker?logo=dart&label=stable&style=flat-square)](https://pub.dev/packages/bongochat_image_picker)
+[![pub package](https://img.shields.io/pub/v/assets_picker?logo=dart&label=stable&style=flat-square)](https://pub.dev/packages/assets_picker)
 
 The latest **dev** version is:
-[![pub package](https://img.shields.io/pub/v/bongochat_image_picker?color=9d00ff&include_prereleases&label=dev&logo=dart&style=flat-square)](https://pub.dev/packages/bongochat_image_picker)
+[![pub package](https://img.shields.io/pub/v/assets_picker?color=9d00ff&include_prereleases&label=dev&logo=dart&style=flat-square)](https://pub.dev/packages/assets_picker)
 
 Then import the package in your code:
 ```dart
-import 'package:bongochat_image_picker/bongochat_image_picker.dart';
+import 'package:assets_picker/assets_picker.dart';
 ```
 
 ### Android
@@ -528,7 +528,7 @@ Many thanks to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tbody>
     <tr>
-      <td align="center" valign="top" width="14.28%"><a href="https://bongochat.com.bd/sajib"><img src="https://avatars.githubusercontent.com/u/39632170?v=4" width="50px;" alt="Sajib Hossain"/><br /><sub><b>Sajib Hossain</b></sub></a><br /><a href="https://github.com/bongochat/flutter_bongochat_image_picker/commits?author=sajib1066" title="Code">💻</a> <a href="#design-sajib1066" title="Design">🎨</a> <a href="https://github.com/bongochat/flutter_bongochat_image_picker/commits?author=sajib1066" title="Documentation">📖</a> <a href="#example-sajib1066" title="Examples">💡</a> <a href="#ideas-sajib1066" title="Ideas, Planning, & Feedback">🤔</a> <a href="#maintenance-sajib1066" title="Maintenance">🚧</a> <a href="#question-sajib1066" title="Answering Questions">💬</a> <a href="https://github.com/bongochat/flutter_bongochat_image_picker/pulls?q=is%3Apr+reviewed-by%sajib1066" title="Reviewed Pull Requests">👀</a> <a href="#a11y-sajib1066" title="Accessibility">️️️️♿️</a> <a href="#translation-sajib1066" title="Translation">🌍</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://bongochat.com.bd/sajib"><img src="https://avatars.githubusercontent.com/u/39632170?v=4" width="50px;" alt="Sajib Hossain"/><br /><sub><b>Sajib Hossain</b></sub></a><br /><a href="https://github.com/bongochat/flutter_assets_picker/commits?author=sajib1066" title="Code">💻</a> <a href="#design-sajib1066" title="Design">🎨</a> <a href="https://github.com/bongochat/flutter_assets_picker/commits?author=sajib1066" title="Documentation">📖</a> <a href="#example-sajib1066" title="Examples">💡</a> <a href="#ideas-sajib1066" title="Ideas, Planning, & Feedback">🤔</a> <a href="#maintenance-sajib1066" title="Maintenance">🚧</a> <a href="#question-sajib1066" title="Answering Questions">💬</a> <a href="https://github.com/bongochat/flutter_assets_picker/pulls?q=is%3Apr+reviewed-by%sajib1066" title="Reviewed Pull Requests">👀</a> <a href="#a11y-sajib1066" title="Accessibility">️️️️♿️</a> <a href="#translation-sajib1066" title="Translation">🌍</a></td>
     </tr>
   </tbody>
 </table>
@@ -550,7 +550,7 @@ Thanks to [JetBrains](https://www.jetbrains.com/?from=bongochat)
 for allocating free open-source licenses for IDEs
 such as [IntelliJ IDEA](https://www.jetbrains.com/idea/?from=bongochat).
 
-[<img src="https://github.com/bongochat/flutter_bongochat_image_picker/raw/main/.github/jetbrains-variant.png" width="200"/>](https://www.jetbrains.com/?from=bongochat)
+[<img src="https://github.com/bongochat/flutter_assets_picker/raw/main/.github/jetbrains-variant.png" width="200"/>](https://www.jetbrains.com/?from=bongochat)
 
 
 [photo_manager pub]: https://pub.dev/packages/photo_manager
@@ -558,10 +558,10 @@ such as [IntelliJ IDEA](https://www.jetbrains.com/idea/?from=bongochat).
 [provider pub]: https://pub.dev/packages/provider
 [video_player pub]: https://pub.dev/packages/video_player
 [wechat_camera_picker pub]: https://pub.dev/packages/wechat_camera_picker
-[Migration Guide]: https://github.com/bongochat/flutter_bongochat_image_picker/blob/main/guides/migration_guide.md
+[Migration Guide]: https://github.com/bongochat/flutter_assets_picker/blob/main/guides/migration_guide.md
 [photo_manager's API docs]: https://pub.dev/documentation/photo_manager/latest/
 [Glide Generated API docs]: https://sjudd.github.io/glide/doc/generatedapi.html
-[Contribute custom implementations]: https://github.com/bongochat/flutter_bongochat_image_picker/blob/main/example/lib/customs/CONTRIBUTING.md
+[Contribute custom implementations]: https://github.com/bongochat/flutter_assets_picker/blob/main/example/lib/customs/CONTRIBUTING.md
 [photo_manager#561]: https://github.com/bongochat/flutter_photo_manager/issues/561
 [photo_manager#from-raw-data]: https://github.com/bongochat/flutter_photo_manager#from-raw-data
 [photo_manager#delete-entities]: https://github.com/bongochat/flutter_photo_manager#delete-entities

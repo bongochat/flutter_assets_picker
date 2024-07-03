@@ -11,7 +11,7 @@ import 'package:flutter/services.dart';
 import 'package:path/path.dart' show basename;
 import 'package:path_provider/path_provider.dart';
 import 'package:provider/provider.dart';
-import 'package:bongochat_image_picker/bongochat_image_picker.dart';
+import 'package:assets_picker/assets_picker.dart';
 
 import '../../constants/extensions.dart';
 

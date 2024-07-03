@@ -297,10 +297,10 @@ class DefaultAssetPickerProvider
   /// 请求的资源类型
   final RequestType requestType;
 
-  /// @{macro bongochat_image_picker.delegates.SortPathDelegate}
+  /// @{macro assets_picker.delegates.SortPathDelegate}
   final SortPathDelegate<AssetPathEntity>? sortPathDelegate;
 
-  /// {@macro bongochat_image_picker.constants.AssetPickerConfig.sortPathsByModifiedDate}
+  /// {@macro assets_picker.constants.AssetPickerConfig.sortPathsByModifiedDate}
   final bool sortPathsByModifiedDate;
 
   /// Filter options for the picker.
