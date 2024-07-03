@@ -5,11 +5,11 @@ class AppLocalizationsEn extends AppLocalizations {
   AppLocalizationsEn([String locale = 'en']) : super(locale);
 
   @override
-  String get appTitle => 'BongoChat Image Picker';
+  String get appTitle => 'BongoChat Assets Picker';
 
   @override
   String appVersion(Object version) {
-    return 'Version: $version';
+    return 'Version: 1.0.0';
   }
 
   @override

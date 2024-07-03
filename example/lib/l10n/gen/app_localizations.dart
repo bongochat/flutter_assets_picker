@@ -99,13 +99,13 @@ abstract class AppLocalizations {
   /// No description provided for @appTitle.
   ///
   /// In en, this message translates to:
-  /// **'BongoChat Image Picker'**
+  /// **'BongoChat Assets Picker'**
   String get appTitle;
 
   /// No description provided for @appVersion.
   ///
   /// In en, this message translates to:
-  /// **'Version: {version}'**
+  /// **'Version: 1.0.0'**
   String appVersion(Object version);
 
   /// No description provided for @appVersionUnknown.

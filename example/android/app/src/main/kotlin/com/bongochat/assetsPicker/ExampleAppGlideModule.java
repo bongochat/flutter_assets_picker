@@ -1,4 +1,4 @@
-package com.bongochat.wechatAssetsPickerExample;
+package com.bongochat.assetsPicker;
 
 import com.bumptech.glide.annotation.GlideModule;
 import com.bumptech.glide.module.AppGlideModule;

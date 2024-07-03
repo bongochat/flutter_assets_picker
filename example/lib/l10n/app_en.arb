@@ -1,7 +1,7 @@
 {
   "@@locale": "en",
-  "appTitle": "BongoChat Image Picker",
-  "appVersion": "Version: {version}",
+  "appTitle": "BongoChat Assets Picker",
+  "appVersion": "Version: 1.0.0",
   "appVersionUnknown": "unknown",
   "navMulti": "Multi",
   "navSingle": "Single",

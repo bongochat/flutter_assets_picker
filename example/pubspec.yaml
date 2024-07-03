@@ -1,6 +1,6 @@
 name: assets_picker_demo
 description: The demo project for the assets_picker package.
-version: 9.1.0+55
+version: 1.0.0
 publish_to: none
 
 environment:

@@ -24,7 +24,7 @@ if (flutterVersionName == null) {
 }
 
 android {
-    namespace "com.bongochat.wechatAssetsPickerExample"
+    namespace "com.bongochat.assetsPicker"
     compileSdk flutter.compileSdkVersion
 
     sourceSets {
@@ -32,7 +32,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.bongochat.wechatAssetsPickerExample"
+        applicationId "com.bongochat.assetsPicker"
         minSdkVersion 21
         targetSdkVersion flutter.targetSdkVersion
         versionCode flutterVersionCode.toInteger()
@@ -44,13 +44,12 @@ android {
     }
 
     compileOptions {
-        // Sets Java compatibility to Java 17
         sourceCompatibility JavaVersion.VERSION_17
         targetCompatibility JavaVersion.VERSION_17
     }
 
     signingConfigs {
-        forAll {
+        release {
             storeFile file("${rootDir.absolutePath}/key.jks")
             storePassword 'picker'
             keyAlias 'picker'
@@ -60,13 +59,14 @@ android {
 
     buildTypes {
         debug {
-            signingConfig signingConfigs.forAll
+            // Do not use signing config for debug builds
+            signingConfig signingConfigs.debug
         }
         profile {
-            signingConfig signingConfigs.forAll
+            signingConfig signingConfigs.release
         }
         release {
-            signingConfig signingConfigs.forAll
+            signingConfig signingConfigs.release
         }
     }
 }

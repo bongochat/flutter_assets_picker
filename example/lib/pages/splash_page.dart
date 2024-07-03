@@ -48,7 +48,7 @@ class _SplashPageState extends State<SplashPage> {
       child: Center(
         child: Hero(
           tag: 'LOGO',
-          child: Image.asset('assets/flutter_candies_logo.png', width: 150.0),
+          child: Image.asset('assets/bongo_chat_logo.png', width: 150.0),
         ),
       ),
     );
