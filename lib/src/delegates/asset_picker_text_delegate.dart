@@ -171,7 +171,7 @@ class EnglishAssetPickerTextDelegate extends AssetPickerTextDelegate {
   String get languageCode => 'en';
 
   @override
-  String get confirm => 'Confirm';
+  String get send => 'Send';
 
   @override
   String get cancel => 'Cancel';
@@ -267,7 +267,7 @@ class HebrewAssetPickerTextDelegate extends AssetPickerTextDelegate {
   String get languageCode => 'he';
 
   @override
-  String get confirm => 'אישור';
+  String get send => 'Send';
 
   @override
   String get cancel => 'ביטול';
@@ -370,7 +370,7 @@ class GermanAssetPickerTextDelegate extends AssetPickerTextDelegate {
   String get languageCode => 'de';
 
   @override
-  String get confirm => 'Bestätigen';
+  String get send => 'Bestätigen';
 
   @override
   String get cancel => 'Abbrechen';
@@ -464,7 +464,7 @@ class RussianAssetPickerTextDelegate extends AssetPickerTextDelegate {
   String get languageCode => 'ru';
 
   @override
-  String get confirm => 'Готово';
+  String get send => 'Готово';
 
   @override
   String get cancel => 'Отмена';
@@ -561,7 +561,7 @@ class JapaneseAssetPickerTextDelegate extends AssetPickerTextDelegate {
   String get languageCode => 'ja';
 
   @override
-  String get confirm => '確認';
+  String get send => '確認';
 
   @override
   String get cancel => 'キャンセル';
@@ -657,7 +657,7 @@ class ArabicAssetPickerTextDelegate extends AssetPickerTextDelegate {
   String get languageCode => 'ar';
 
   @override
-  String get confirm => 'تاكيد';
+  String get send => 'تاكيد';
 
   @override
   String get cancel => 'إلغاء';
@@ -754,7 +754,7 @@ class FrenchAssetPickerTextDelegate extends AssetPickerTextDelegate {
   String get languageCode => 'fr';
 
   @override
-  String get confirm => 'OK';
+  String get send => 'OK';
 
   @override
   String get cancel => 'Annuler';
@@ -853,7 +853,7 @@ class VietnameseAssetPickerTextDelegate extends AssetPickerTextDelegate {
   String get languageCode => 'vi';
 
   @override
-  String get confirm => 'Xác nhận';
+  String get send => 'Xác nhận';
 
   @override
   String get cancel => 'Hủy';
@@ -949,7 +949,7 @@ class TurkishAssetPickerTextDelegate extends AssetPickerTextDelegate {
   String get languageCode => 'tr';
 
   @override
-  String get confirm => 'Onayla';
+  String get send => 'Onayla';
 
   @override
   String get cancel => 'İptal';
@@ -1043,7 +1043,7 @@ class KoreanAssetPickerTextDelegate extends AssetPickerTextDelegate {
   String get languageCode => 'ko';
 
   @override
-  String get confirm => '확인';
+  String get send => '확인';
 
   @override
   String get cancel => '취소';
