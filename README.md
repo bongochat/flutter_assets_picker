@@ -16,7 +16,7 @@ that can be found in the LICENSE file. -->
 [![Awesome Flutter](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/Solido/awesome-flutter)
 [![Flutter Candies QQ群](https://pub.idqqimg.com/wpa/images/group.png)](https://jq.qq.com/?_wv=1027&k=5bcc0gy)
 
-Language: English | [中文](README-ZH.md)
+Language: English | [中文](README-BN.md)
 
 An **image picker (also with videos and audios)**
 for Flutter projects based on the WeChat's UI.

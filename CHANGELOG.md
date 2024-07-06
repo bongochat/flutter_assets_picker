@@ -7,6 +7,11 @@ that can be found in the LICENSE file. -->
 > [!IMPORTANT]  
 > See the [Migration Guide](guides/migration_guide.md) for the details of breaking changes between versions.
 
+## 1.0.2
+
+- Update Button Text.
+- Bug Fixes
+
 ## 1.0.1
 
 - Update UI.
