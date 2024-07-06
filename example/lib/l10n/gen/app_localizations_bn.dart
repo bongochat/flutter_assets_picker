@@ -1,15 +1,15 @@
 import 'app_localizations.dart';
 
-/// The translations for Chinese (`zh`).
-class AppLocalizationsZh extends AppLocalizations {
-  AppLocalizationsZh([String locale = 'zh']) : super(locale);
+/// The translations for Bengali Bangla (`bn`).
+class AppLocalizationsBn extends AppLocalizations {
+  AppLocalizationsBn([String locale = 'bn']) : super(locale);
 
   @override
-  String get appTitle => 'WeChat Asset Picker 示例';
+  String get appTitle => 'BongoChat Asset Picker';
 
   @override
   String appVersion(Object version) {
-    return '版本：$version';
+    return 'Version：$version';
   }
 
   @override

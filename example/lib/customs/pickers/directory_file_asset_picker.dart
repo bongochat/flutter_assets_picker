@@ -780,9 +780,9 @@ class FileAssetPickerBuilder
             materialTapTargetSize: MaterialTapTargetSize.shrinkWrap,
             child: Text(
               provider.isSelectedNotEmpty && !isSingleAssetMode
-                  ? '${textDelegate.confirm}'
+                  ? '${textDelegate.send}'
                       '(${provider.selectedAssets.length}/${provider.maxAssets})'
-                  : textDelegate.confirm,
+                  : textDelegate.send,
               style: TextStyle(
                 color: provider.isSelectedNotEmpty
                     ? theme.textTheme.bodyLarge?.color
@@ -1500,12 +1500,12 @@ class FileAssetPickerViewerBuilderDelegate
             child: Text(
               () {
                 if (provider.isSelectedNotEmpty) {
-                  return '${textDelegate.confirm}'
+                  return '${textDelegate.send}'
                       '(${provider.currentlySelectedAssets.length}'
                       '/'
                       '${selectorProvider!.maxAssets})';
                 }
-                return textDelegate.confirm;
+                return textDelegate.send;
               }(),
               style: TextStyle(
                 color: () {

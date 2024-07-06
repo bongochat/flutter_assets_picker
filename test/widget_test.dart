@@ -32,7 +32,7 @@ void main() {
         await tester.tap(defaultButtonFinder);
         await tester.pumpAndSettle();
         expect(
-          find.text(const AssetPickerTextDelegate().confirm),
+          find.text(const AssetPickerTextDelegate().send),
           findsOneWidget,
         );
       });
@@ -53,7 +53,7 @@ void main() {
         await tester.tap(defaultButtonFinder);
         await tester.pumpAndSettle();
         expect(
-          find.text(const AssetPickerTextDelegate().confirm),
+          find.text(const AssetPickerTextDelegate().send),
           findsOneWidget,
         );
       });
@@ -76,7 +76,7 @@ void main() {
         await tester.tap(defaultButtonFinder);
         await tester.pumpAndSettle();
         expect(
-          find.text(const AssetPickerTextDelegate().confirm),
+          find.text(const AssetPickerTextDelegate().send),
           findsOneWidget,
         );
       });
@@ -97,7 +97,7 @@ void main() {
         await tester.tap(defaultButtonFinder);
         await tester.pumpAndSettle();
         expect(
-          find.text(const AssetPickerTextDelegate().confirm),
+          find.text(const AssetPickerTextDelegate().send),
           findsNothing,
         );
       });

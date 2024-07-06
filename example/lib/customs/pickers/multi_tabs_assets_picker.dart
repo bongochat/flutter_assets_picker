@@ -398,9 +398,9 @@ class MultiTabAssetPickerBuilder extends DefaultAssetPickerBuilderDelegate {
           materialTapTargetSize: MaterialTapTargetSize.shrinkWrap,
           child: Text(
             p.isSelectedNotEmpty && !isSingleAssetMode
-                ? '${textDelegate.confirm}'
+                ? '${textDelegate.send}'
                     ' (${p.selectedAssets.length}/${p.maxAssets})'
-                : textDelegate.confirm,
+                : textDelegate.send,
             style: TextStyle(
               color: p.isSelectedNotEmpty
                   ? theme.textTheme.bodyLarge?.color

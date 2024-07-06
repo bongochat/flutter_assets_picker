@@ -1,7 +1,7 @@
 {
-  "@@locale": "zh",
-  "appTitle": "WeChat Asset Picker 示例",
-  "appVersion": "版本：{version}",
+  "@@locale": "bn",
+  "appTitle": "BongoChat Asset Picker",
+  "appVersion": "Version：{version}",
   "appVersionUnknown": "未知",
   "navMulti": "多选",
   "navSingle": "单选",

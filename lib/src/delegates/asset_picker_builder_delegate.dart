@@ -1550,9 +1550,9 @@ class DefaultAssetPickerBuilderDelegate
           materialTapTargetSize: MaterialTapTargetSize.shrinkWrap,
           child: ScaleText(
             isSelectedNotEmpty && !isSingleAssetMode
-                ? '${textDelegate.confirm}'
-                    ' (${p.selectedAssets.length}/${p.maxAssets})'
-                : textDelegate.confirm,
+                ? '${textDelegate.send}'
+                    ' (${p.selectedAssets.length})'
+                : textDelegate.send,
             style: TextStyle(
               color: shouldAllowConfirm
                   ? theme.textTheme.bodyLarge?.color
@@ -1561,9 +1561,9 @@ class DefaultAssetPickerBuilderDelegate
               fontWeight: FontWeight.normal,
             ),
             semanticsLabel: isSelectedNotEmpty && !isSingleAssetMode
-                ? '${semanticsTextDelegate.confirm}'
-                    ' (${p.selectedAssets.length}/${p.maxAssets})'
-                : semanticsTextDelegate.confirm,
+                ? '${semanticsTextDelegate.send}'
+                    ' (${p.selectedAssets.length})'
+                : semanticsTextDelegate.send,
           ),
         );
       },

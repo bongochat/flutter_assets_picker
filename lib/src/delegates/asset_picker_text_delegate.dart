@@ -42,19 +42,19 @@ AssetPickerTextDelegate assetPickerTextDelegateFromLocale(Locale? locale) {
 class AssetPickerTextDelegate {
   const AssetPickerTextDelegate();
 
-  String get languageCode => 'zh';
+  String get languageCode => 'bn';
 
   /// Confirm string for the confirm button.
   /// 确认按钮的字段
-  String get confirm => '确认';
+  String get send => 'Send';
 
   /// Cancel string for back button.
   /// 返回按钮的字段
-  String get cancel => '取消';
+  String get cancel => 'Cancel';
 
   /// Edit string for edit button.
   /// 编辑按钮的字段
-  String get edit => '编辑';
+  String get edit => 'Edit';
 
   /// GIF indicator string.
   /// GIF指示的字段
@@ -66,19 +66,19 @@ class AssetPickerTextDelegate {
 
   /// Original string for original selection.
   /// 选择是否原图的字段
-  String get original => '原图';
+  String get original => 'Original';
 
   /// Preview string for preview button.
   /// 预览按钮的字段
-  String get preview => '预览';
+  String get preview => 'Preview';
 
   /// Select string for select button.
   /// 选择按钮的字段
-  String get select => '选择';
+  String get select => 'Select';
 
   /// Empty list string for empty asset list.
   /// 资源列表为空时的占位字段
-  String get emptyList => '列表为空';
+  String get emptyList => 'Empty List';
 
   /// Un-supported asset type string for assets that
   /// belongs to [AssetType.other].

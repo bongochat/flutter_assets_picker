@@ -804,15 +804,13 @@ class DefaultAssetPickerViewerBuilderDelegate
 
           String buildText() {
             if (isWeChatMoment && hasVideo) {
-              return textDelegate.confirm;
+              return textDelegate.send;
             }
             if (provider!.isSelectedNotEmpty) {
-              return '${textDelegate.confirm}'
-                  ' (${provider.currentlySelectedAssets.length}'
-                  '/'
-                  '${selectorProvider!.maxAssets})';
+              return '${textDelegate.send}'
+                  ' (${provider.currentlySelectedAssets.length})';
             }
-            return textDelegate.confirm;
+            return textDelegate.send;
           }
 
           final bool isButtonEnabled = provider == null ||
@@ -844,15 +842,13 @@ class DefaultAssetPickerViewerBuilderDelegate
               softWrap: false,
               semanticsLabel: () {
                 if (isWeChatMoment && hasVideo) {
-                  return semanticsTextDelegate.confirm;
+                  return semanticsTextDelegate.send;
                 }
                 if (provider!.isSelectedNotEmpty) {
-                  return '${semanticsTextDelegate.confirm}'
-                      ' (${provider.currentlySelectedAssets.length}'
-                      '/'
-                      '${selectorProvider!.maxAssets})';
+                  return '${semanticsTextDelegate.send}'
+                      ' (${provider.currentlySelectedAssets.length})';
                 }
-                return semanticsTextDelegate.confirm;
+                return semanticsTextDelegate.send;
               }(),
             ),
           );
