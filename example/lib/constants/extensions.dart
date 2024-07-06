@@ -2,8 +2,8 @@
 // Use of this source code is governed by an Apache license that can be found
 // in the LICENSE file.
 
-import 'package:flutter/material.dart';
 import 'package:assets_picker_demo/l10n/gen/app_localizations.dart';
+import 'package:flutter/material.dart';
 
 extension BuildContextExtension on BuildContext {
   AppLocalizations get l10n => AppLocalizations.of(this)!;

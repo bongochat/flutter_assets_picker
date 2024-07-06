@@ -2,9 +2,9 @@
 // Use of this source code is governed by an Apache license that can be found
 // in the LICENSE file.
 
+import 'package:assets_picker/assets_picker.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:assets_picker/assets_picker.dart';
 
 import 'test_utils.dart';
 

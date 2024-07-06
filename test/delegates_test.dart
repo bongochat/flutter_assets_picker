@@ -3,8 +3,8 @@
 // [Date] 2022/9/19 11:52
 //
 
-import 'package:flutter_test/flutter_test.dart';
 import 'package:assets_picker/assets_picker.dart';
+import 'package:flutter_test/flutter_test.dart';
 
 void main() {
   test('Sort paths correctly', () {

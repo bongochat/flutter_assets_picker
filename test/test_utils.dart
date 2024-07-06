@@ -3,11 +3,11 @@
 // [Date] 2022/09/20 16:35
 //
 
+import 'package:assets_picker/assets_picker.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:assets_picker/assets_picker.dart';
 
 const String _testButtonText = 'Picker test press';
 

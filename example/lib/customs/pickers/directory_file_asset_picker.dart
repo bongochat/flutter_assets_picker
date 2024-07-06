@@ -6,12 +6,12 @@ import 'dart:io';
 import 'dart:math' as math;
 import 'dart:typed_data' as typed_data;
 
+import 'package:assets_picker/assets_picker.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:path/path.dart' show basename;
 import 'package:path_provider/path_provider.dart';
 import 'package:provider/provider.dart';
-import 'package:assets_picker/assets_picker.dart';
 
 import '../../constants/extensions.dart';
 

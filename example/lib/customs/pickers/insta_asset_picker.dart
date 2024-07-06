@@ -10,11 +10,11 @@ library;
 
 import 'dart:math';
 
+import 'package:assets_picker/assets_picker.dart';
 import 'package:extended_image/extended_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:provider/provider.dart';
-import 'package:assets_picker/assets_picker.dart';
 
 import '../../constants/extensions.dart';
 

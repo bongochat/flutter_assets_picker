@@ -4,10 +4,10 @@
 
 import 'dart:math' as math;
 
+import 'package:assets_picker/assets_picker.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:provider/provider.dart';
-import 'package:assets_picker/assets_picker.dart';
 
 import '../../constants/extensions.dart';
 

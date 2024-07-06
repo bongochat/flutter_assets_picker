@@ -2,9 +2,9 @@
 // Use of this source code is governed by an Apache license that can be found
 // in the LICENSE file.
 
-import 'package:flutter/material.dart';
 import 'package:assets_picker/assets_picker.dart'
     show AssetEntity;
+import 'package:flutter/material.dart';
 
 import '../constants/picker_method.dart';
 import 'page_mixin.dart';

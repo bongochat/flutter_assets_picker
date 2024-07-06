@@ -2,10 +2,10 @@
 // Use of this source code is governed by an Apache license that can be found
 // in the LICENSE file.
 
-import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import 'package:assets_picker/assets_picker.dart';
 import 'package:assets_picker_demo/l10n/gen/app_localizations.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 
 import 'constants/extensions.dart';
 import 'pages/splash_page.dart';
